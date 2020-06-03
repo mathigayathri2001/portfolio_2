@@ -1,0 +1,167 @@
+/* Style sheet used in the Porfolio page such as Navbar, AboutMe and Projects divisions*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+        background-color:rgb(17, 78, 73);  
+   
+}
+h2{
+    text-align: center;
+    
+}
+
+#Header a:hover{
+    background-color:rgb(128, 177, 138);
+
+}
+
+h2{
+    color:white;
+
+}
+
+ul{
+    margin-left: 10px;
+}
+#About{
+    margin-top:100px;  
+}
+.team{
+    background-color: #ccc;
+}
+#About .fab {
+    color: white;
+
+}
+#About .fas {
+    color: rgb(14, 13, 13);
+
+}
+.nav-link{
+    font-size: 20px;
+    
+}
+
+.cardfooter {
+    color: white;
+}
+.intro{
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skills{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(128, 177, 138);
+}
+li{
+    font-style: italic;
+    font-size: 20px;
+}
+.projects{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.assignment{
+    margin-top: -50px;
+}
+#Projects{
+    background-color:#614d5e;
+    color:white;
+
+}
+
+
+.projects a:hover{
+    background-color: rgb(168, 119, 214);
+
+}
+.assignment a:hover{
+    
+    background-color: rgb(168, 119, 214);
+
+
+}
+.projects .fab{
+    color:black;
+
+}
+.assignment .fab{
+    color:black;
+
+}
+.repolink{
+    font-size: 20px;
+}
+.deploylink{
+    font-size: 20px;
+}
+
+.footer{
+    color:white;
+}
+
+#contact .fas {
+    color: rgb(14, 13, 13);}
+.icon-bar {
+    margin-top: 300px;
+    float: left;  
+    width: 80px;
+    background-color: rgb(66, 58, 64);
+    border-radius: 0px 15px 15px 0px; 
+  }
+   
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 18px;
+  
+  }
+  .icon-bar h5{
+    background-color: rgb(0, 255, 242);  
+  }
+  .icon-bar a:hover {
+    background-color: rgb(0, 255, 242);
+    color: black;
+   
+  }
+  #resume:hover {
+    border-radius: 0px 0px 15px 0px;
+  }
+  
+  .active {
+    background-color: rgb(128, 177, 138);
+    border-radius: 0px 15px 0px 0px;
+  }
+  .card-footer span:hover{
+    background-color: rgb(236, 173, 226);
+
+}
+.cardfooter span{
+    text-align: center;
+    
+}
+
+
+
+@media (max-width: 575px){
+    .card{
+        width: 100%;
+        font-size: 1rem;   
+    } 
+    .cardfooter{
+        width:100%;
+    }
+    
+  } 
+  
+
+      
