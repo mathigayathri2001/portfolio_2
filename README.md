@@ -21,7 +21,7 @@ https://mathigayathri2001.github.io/portfolio_2/
 
 ## Description
 
-This project describes about my portfolio, skills learned in the course, resume, linkedin and github link related to all my group projects and class assignments. This porfolio will help me to go to the job market as full stack web developer.
+This project describes about my portfolio, skills learned in the course, resume, linkedin and github link related to all my group projects and class assignments. This porfolio will help me to go to the job market as a full stack web developer.
 
 
 
