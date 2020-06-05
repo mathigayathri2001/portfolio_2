@@ -48,6 +48,12 @@ ul{
     
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .cardfooter {
     color: white;
 }
@@ -113,7 +119,7 @@ li{
 .icon-bar {
     margin-top: 300px;
     float: left;  
-    width: 80px;
+    width: 50px;
     background-color: rgb(66, 58, 64);
     border-radius: 0px 15px 15px 0px; 
   }
@@ -152,16 +158,64 @@ li{
     
 }
 
-@media (max-width: 575px){
+
+  @media (max-width: 365px){
+
+    
     .card{
         width: 100%;
-        font-size: 1rem;   
+        font-size: 0rem;
+          
     } 
-    .cardfooter{
+   
+
+    #contact .card-footer{
+        width:100%;
+        padding:0
+    }
+    
+  } 
+
+  
+
+@media (max-width: 575px){
+
+   
+    .card{
+        width: 100%;
+        font-size: 0rem;
+          
+    } 
+    li{
+        font-size: 18px;
+    }
+    .intro{
+        font-size:18px;
+    }
+    .skills{
+    
+        font-size:18px;
+    }
+
+    #contact .card-footer{
         width:100%;
     }
     
   } 
  
+  @media (max-width: 760px){
+
+    
+    .card{
+        width: 100%;
+        font-size: 0rem;
+          
+    }
+
+    #contact .card-footer{
+        width:100%;
+    }
+    
+  } 
 
   
